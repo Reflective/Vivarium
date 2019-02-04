@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Vivarium.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\The Projects\Unreal Repos\Vivarium\Vivarium\Intermediate\Build\Win64\VivariumEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\The Projects\Unreal Repos\Vivarium\Vivarium\Intermediate\Build\Win64\UE4Editor\Development\Vivarium\Vivarium.cpp.obj"
+"D:\The Projects\Unreal Repos\Vivarium\Vivarium\Intermediate\Build\Win64\UE4Editor\Development\Vivarium\VivariumGameModeBase.cpp.obj"
+"D:\The Projects\Unreal Repos\Vivarium\Vivarium\Intermediate\Build\Win64\UE4Editor\Development\Vivarium\Vivarium.init.gen.cpp.obj"
+"D:\The Projects\Unreal Repos\Vivarium\Vivarium\Intermediate\Build\Win64\UE4Editor\Development\Vivarium\VivariumGameModeBase.gen.cpp.obj"
+"D:\The Projects\Unreal Repos\Vivarium\Vivarium\Intermediate\Build\Win64\UE4Editor\Development\Vivarium\PCLaunch.rc.res"
+/OUT:"D:\The Projects\Unreal Repos\Vivarium\Vivarium\Intermediate\Build\Win64\UE4Editor\Development\Vivarium\UE4Editor-Vivarium.lib"

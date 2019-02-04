@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Vivarium.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D7B353E1-8F9A-449D-88AC-753B40331527}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Vivarium.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VivariumEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C72F124F-882B-4F2B-851E-2F893C4D5F8A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Vivarium">
+      <UniqueIdentifier>{C88B4607-99DC-48C8-996D-3E86D243212F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Vivarium\Vivarium.Build.cs">
+      <Filter>Source\Vivarium</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Vivarium\Vivarium.cpp">
+      <Filter>Source\Vivarium</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Vivarium\Vivarium.h">
+      <Filter>Source\Vivarium</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Vivarium\VivariumGameModeBase.cpp">
+      <Filter>Source\Vivarium</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Vivarium\VivariumGameModeBase.h">
+      <Filter>Source\Vivarium</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
